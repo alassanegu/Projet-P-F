@@ -14,6 +14,7 @@ case class Queue[T](in:List[T] = Nil, out:List[T] = Nil) {
     }
   }
 
+
   /** Renvoie le premier élément de la file d'attente, s'il existe (dernier élément saisi).
    * Renvoie None si la file d'attente est vide.
    */
